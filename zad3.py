@@ -1,0 +1,6 @@
+print("Podaj imię i nazwisko:")
+imnaz=input()
+print(imnaz)
+r=imnaz.split(" ")
+print(r)
+print(r[0], r[1].upper())
