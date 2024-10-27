@@ -9,6 +9,7 @@ seed()
 a=[randint(0,20)]*n
 for i in range(n):
     a[i]=[randint(0,20)]*m
-print(a)
+    for k in range(m):
+        a[i][k]=randint(0,20)
 for j in range(n):
     print(a[j])
