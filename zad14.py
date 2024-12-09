@@ -13,7 +13,7 @@ for i in range(n):
     for k in range(m):
         a[i][k]=randint(0,20)
 for j in range(n):
-    suma=a[j][p]=suma
+    suma=a[j][p]+suma
     print(a[j])
     p=p+1
 print(suma)
